@@ -7,18 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		340A03A029FC82AF006758B0 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340A039F29FC82AF006758B0 /* CardModel.swift */; };
+		340A03A229FC833F006758B0 /* ItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340A03A129FC833F006758B0 /* ItemViewModel.swift */; };
+		3456C20A29FBFC80004F2E24 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3456C20929FBFC80004F2E24 /* CameraView.swift */; };
+		3456C20C29FBFCE0004F2E24 /* CameraViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3456C20B29FBFCE0004F2E24 /* CameraViewModel.swift */; };
+		347C251129FF14E80066AD95 /* UserLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347C251029FF14E80066AD95 /* UserLocation.swift */; };
+		347C251329FF155B0066AD95 /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347C251229FF155B0066AD95 /* LocationViewModel.swift */; };
+		347C251529FF25440066AD95 /* Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347C251429FF25440066AD95 /* Details.swift */; };
+		3483FDE729FB690D00B33163 /* CameraView in Frameworks */ = {isa = PBXBuildFile; productRef = 3483FDE629FB690D00B33163 /* CameraView */; };
 		34F380A829F9D78800208256 /* TestMakingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F380A729F9D78800208256 /* TestMakingApp.swift */; };
 		34F380AA29F9D78800208256 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F380A929F9D78800208256 /* ContentView.swift */; };
 		34F380AC29F9D78900208256 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34F380AB29F9D78900208256 /* Assets.xcassets */; };
 		34F380AF29F9D78900208256 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34F380AE29F9D78900208256 /* Preview Assets.xcassets */; };
+		34F380BB29F9D84300208256 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F380BA29F9D84300208256 /* Home.swift */; };
+		34F380BD29F9D87D00208256 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F380BC29F9D87D00208256 /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		340A039F29FC82AF006758B0 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		340A03A129FC833F006758B0 /* ItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewModel.swift; sourceTree = "<group>"; };
+		3456C20929FBFC80004F2E24 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		3456C20B29FBFCE0004F2E24 /* CameraViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewModel.swift; sourceTree = "<group>"; };
+		347C251029FF14E80066AD95 /* UserLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocation.swift; sourceTree = "<group>"; };
+		347C251229FF155B0066AD95 /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
+		347C251429FF25440066AD95 /* Details.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Details.swift; sourceTree = "<group>"; };
 		34F380A429F9D78800208256 /* TestMaking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestMaking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34F380A729F9D78800208256 /* TestMakingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMakingApp.swift; sourceTree = "<group>"; };
 		34F380A929F9D78800208256 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		34F380AB29F9D78900208256 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34F380AE29F9D78900208256 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		34F380BA29F9D84300208256 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		34F380BC29F9D87D00208256 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3483FDE729FB690D00B33163 /* CameraView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +71,9 @@
 		34F380A629F9D78800208256 /* TestMaking */ = {
 			isa = PBXGroup;
 			children = (
+				34F380B729F9D7CB00208256 /* ViewModel */,
+				34F380B629F9D7C300208256 /* models */,
+				34F380B529F9D7A100208256 /* Views */,
 				34F380A729F9D78800208256 /* TestMakingApp.swift */,
 				34F380A929F9D78800208256 /* ContentView.swift */,
 				34F380AB29F9D78900208256 /* Assets.xcassets */,
@@ -65,6 +88,36 @@
 				34F380AE29F9D78900208256 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		34F380B529F9D7A100208256 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				34F380BA29F9D84300208256 /* Home.swift */,
+				34F380BC29F9D87D00208256 /* Item.swift */,
+				3456C20929FBFC80004F2E24 /* CameraView.swift */,
+				347C251429FF25440066AD95 /* Details.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		34F380B629F9D7C300208256 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				340A039F29FC82AF006758B0 /* CardModel.swift */,
+				347C251029FF14E80066AD95 /* UserLocation.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		34F380B729F9D7CB00208256 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				340A03A129FC833F006758B0 /* ItemViewModel.swift */,
+				3456C20B29FBFCE0004F2E24 /* CameraViewModel.swift */,
+				347C251229FF155B0066AD95 /* LocationViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +136,9 @@
 			dependencies = (
 			);
 			name = TestMaking;
+			packageProductDependencies = (
+				3483FDE629FB690D00B33163 /* CameraView */,
+			);
 			productName = TestMaking;
 			productReference = 34F380A429F9D78800208256 /* TestMaking.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +167,9 @@
 				Base,
 			);
 			mainGroup = 34F3809B29F9D78800208256;
+			packageReferences = (
+				3483FDE529FB690D00B33163 /* XCRemoteSwiftPackageReference "CameraView" */,
+			);
 			productRefGroup = 34F380A529F9D78800208256 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +196,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34F380BD29F9D87D00208256 /* Item.swift in Sources */,
+				340A03A229FC833F006758B0 /* ItemViewModel.swift in Sources */,
 				34F380AA29F9D78800208256 /* ContentView.swift in Sources */,
+				347C251329FF155B0066AD95 /* LocationViewModel.swift in Sources */,
+				347C251129FF14E80066AD95 /* UserLocation.swift in Sources */,
+				34F380BB29F9D84300208256 /* Home.swift in Sources */,
+				347C251529FF25440066AD95 /* Details.swift in Sources */,
+				3456C20A29FBFC80004F2E24 /* CameraView.swift in Sources */,
+				340A03A029FC82AF006758B0 /* CardModel.swift in Sources */,
 				34F380A829F9D78800208256 /* TestMakingApp.swift in Sources */,
+				3456C20C29FBFCE0004F2E24 /* CameraViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +338,8 @@
 				DEVELOPMENT_TEAM = ZC9N793UB2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Making test need acces to your camera";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app need you location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +369,8 @@
 				DEVELOPMENT_TEAM = ZC9N793UB2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Making test need acces to your camera";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app need you location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -339,6 +411,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3483FDE529FB690D00B33163 /* XCRemoteSwiftPackageReference "CameraView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/brettfazio/CameraView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3483FDE629FB690D00B33163 /* CameraView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3483FDE529FB690D00B33163 /* XCRemoteSwiftPackageReference "CameraView" */;
+			productName = CameraView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 34F3809C29F9D78800208256 /* Project object */;
 }
